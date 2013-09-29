@@ -1,11 +1,7 @@
-@players = [
- 'marin',
- 'orta',
- 'luis',
- 'irina',
- 'danger',
- 'kyle'
-]
+def ask_for_players
+  puts "Enter playas (separated by space): "
+  @players = gets.split(" ")
+end
 
 def drink
   first, second = @players.shuffle[0..1]
@@ -18,5 +14,6 @@ def drink
   drink
 end
 
+ask_for_players
 drink
 
