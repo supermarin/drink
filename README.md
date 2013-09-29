@@ -4,7 +4,8 @@ You can keep playing Monopoly™ or continue your conversations,
 while the game decides who needs to drink.
 
 ## Dude, how do I run this?
-Open drink.rb, edit players and run! (`$ ruby drink.rb`)
+1. Open drink.rb, edit players and run! (`$ ruby drink.rb`)
+2. Set your terminal font size to MAX, and open the laptop on a visible spot.
 
 ## Acknowledgements
 This game was made in roughly 15 seconds during some of the @NSSpain's
