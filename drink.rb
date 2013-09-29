@@ -14,7 +14,7 @@ def drink
   puts playas
   `say #{playas}, cheers`
 
-  sleep rand(1..6)
+  sleep rand(8..35)
   drink
 end
 
